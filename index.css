@@ -1,0 +1,45 @@
+h1 {
+  font-size: 45px;
+  font-weight: 100;
+  padding: 20px;
+  margin: 0px;
+}
+.mainsite {
+  display: inline-block;
+  width: 300px;
+  border-radius: 30px;
+  margin: 20px;
+}
+.google {
+  background-color: gold;
+  color: black;
+}
+.naver {
+  background-color: springgreen;
+  color: white;
+}
+.facebook {
+  background-color: royalblue;
+  color: white;
+}
+a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+h2 {
+  text-align: center;
+  font-size: 40px;
+  padding: 15px;
+  margin: 0px;
+}
+ul {
+  list-style: none;
+  text-align: center;
+  padding-left: 0px;
+  padding-bottom: 15px;
+  margin: 0px;
+}
+li {
+  padding: 2px;
+}
