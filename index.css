@@ -1,12 +1,17 @@
 h1 {
+  text-align: center;
   font-size: 45px;
   font-weight: 100;
   padding: 20px;
   margin: 0px;
 }
+.content {
+  text-align: center;
+}
 .mainsite {
-  display: inline-block;
-  width: 300px;
+  display: inline-grid;
+  width: 270px;
+  height: 200px;
   border-radius: 30px;
   margin: 20px;
 }
@@ -20,6 +25,10 @@ h1 {
 }
 .facebook {
   background-color: royalblue;
+  color: white;
+}
+.ebs {
+  background-color: darkblue;
   color: white;
 }
 a {
@@ -42,4 +51,12 @@ ul {
 }
 li {
   padding: 2px;
+}
+@media (max-width:660px) {
+  .content {
+    text-align:center;
+  }
+  .mainsite {
+    width: 350px;
+  }
 }
