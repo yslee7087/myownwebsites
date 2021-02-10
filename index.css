@@ -4,11 +4,12 @@ body {
 }
 h1 {
   position: fixed;
+  left: 15px;
   z-index: 1;
   width: 100%;
   background-color: white;
-  text-align: center;
-  font-size: 35px;
+  text-align: left;
+  font-size: 30px;
   font-weight: 100;
   padding: 10px;
   padding-left: 20px;
@@ -16,7 +17,7 @@ h1 {
 }
 .content {
   position: relative;
-  top: 55px;
+  top: 50px;
   text-align: center;
   font-family: sans-serif;
 }
@@ -63,6 +64,9 @@ ul {
 }
 li {
   padding: 2px;
+}
+input {
+  outline: none;
 }
 @media (max-width:660px) {
   .content {

@@ -1,11 +1,15 @@
 var setColor = {
-  setBackgroundColor:function (tagname, color) {
+  background:function (tagname, color) {
     document.querySelector(tagname).style.backgroundColor = color;
   },
-  setTextColor:function (tagname, color) {
+  text:function (tagname, color) {
     document.querySelector(tagname).style.color = color;
+  },
+  btnBorder:function (color) {
+    document.querySelector("input").style.borderColor = color;
   }
 }
+
 function linksSetColor(color) {
   var linksList = document.querySelectorAll("a");
   var linksSequence = 0;
@@ -17,18 +21,20 @@ function linksSetColor(color) {
 function darkmode(self, tagname) {
   const target = document.querySelector(tagname);
   if(self.value ===  "Dark mode") {
-    setColor.setBackgroundColor("body", "black");
-    setColor.setBackgroundColor("h1", "black");
-    setColor.setTextColor("h1", "white")
-    setColor.setBackgroundColor("input", "black")
-    setColor.setTextColor("input", "white")
+    setColor.background("body", "black");
+    setColor.background("h1", "black");
+    setColor.text("h1", "white");
+    setColor.background("input", "black");
+    setColor.text("input", "white");
+    setColor.btnBorder("white");
     self.value = "Light mode";
   } else {
-    setColor.setBackgroundColor("body", "white");
-    setColor.setBackgroundColor("h1", "white");
-    setColor.setTextColor("h1", "black")
-    setColor.setBackgroundColor("input", "white")
-    setColor.setTextColor("input", "black")
+    setColor.background("body", "white");
+    setColor.background("h1", "white");
+    setColor.text("h1", "black");
+    setColor.background("input", "white");
+    setColor.text("input", "black");
+    setColor.btnBorder("black");
     self.value = "Dark mode";
   }
 }
