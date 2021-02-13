@@ -18,23 +18,25 @@ function linksSetColor(color) {
     linksSequence = linksSequence + 1;
   }
 }
+
 function darkmode(self, tagname) {
-  const target = document.querySelector(tagname);
   if(self.value ===  "Dark mode") {
     setColor.background("body", "black");
     setColor.background("h1", "black");
     setColor.text("h1", "white");
-    setColor.background("input", "black");
-    setColor.text("input", "white");
-    setColor.btnBorder("white");
+
+    self.classList.remove("lightmodeBtn");
+    self.classList.add("darkmodeBtn");
+
     self.value = "Light mode";
   } else {
     setColor.background("body", "white");
     setColor.background("h1", "white");
     setColor.text("h1", "black");
-    setColor.background("input", "white");
-    setColor.text("input", "black");
-    setColor.btnBorder("black");
+
+    self.classList.remove("darkmodeBtn");
+    self.classList.add("lightmodeBtn");
+    
     self.value = "Dark mode";
   }
 }
