@@ -1,0 +1,64 @@
+.swiper {
+  white-space: nowrap;
+  overflow-x: scroll;
+  bottom: 0px;
+  text-align: center;
+  font-family: sans-serif;
+}
+.swiper::-webkit-scrollbar {
+  height: 10px;
+  background-color: none;
+}
+.swiper::-webkit-scrollbar-thumb {
+  background-color: rgb(211, 211, 211);
+  border-radius: 10px;
+}
+.swiper::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(163, 163, 163);
+}
+.mainsite {
+  display: inline-grid;
+  width: 270px;
+  height: 200px;
+  border-radius: 30px;
+  margin: 20px;
+}
+
+.google {
+  background-color: gold;
+  color: black;
+}
+.naver {
+  background-color: springgreen;
+  color: white;
+}
+.facebook {
+  background-color: royalblue;
+  color: white;
+}
+.ebs {
+  background-color: darkblue;
+  color: white;
+}
+
+.swiper h2 {
+  text-align: center;
+  font-size: 40px;
+  padding: 15px;
+  margin: 0px;
+}
+.swiper a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+.swiper ul {
+  list-style: none;
+  text-align: center;
+  padding-left: 0px;
+  padding-bottom: 15px;
+  margin: 0px;
+}
+.swiper li {
+  padding: 2px;
+}

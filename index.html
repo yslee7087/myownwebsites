@@ -1,61 +1,60 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>나만의 웹사이트!</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="button-style.css">
-  </head>
-  <body>
-    <div class="nav">
-      <h1>나만의 웹사이트!</h1>
-      <input class="button darkmode lightmodeBtn" type="button" value="Dark mode" onclick="darkmode(this)">
+
+<head>
+  <meta charset="utf-8">
+  <title>나만의 웹사이트!</title>
+  <link rel="stylesheet" href="body-style.css">
+  <link rel="stylesheet" href="swiper-style.css">
+  <link rel="stylesheet" href="nav-style.css">
+  <link rel="stylesheet" href="clock-style.css">
+</head>
+
+<body>
+  <div class="nav">
+    <h1>나만의 웹사이트!</h1>
+  </div>
+  <div class="content">
+    <div class="clock">
+      <div class="AmPm">Pm</div>
+      <h1>00:00</h1>
+      <div class="dates">0000년 00월 00일 n요일</div>
     </div>
-    <div class="content">
+    <div class="swiper">
       <div class="mainsite google">
-        <h2><a href="https://www.google.com" title="Google로 이동"
-          target="_blank">Google</a></h2>
+        <h2><a href="https://www.google.com" title="Google로 이동" target="_blank">Google</a></h2>
         <ul>
-          <li><a href="https://www.youtube.com" title="YouTube로 이동"
-            target="_blank">YouTube</a></li>
-          <li><a href="https://mail.google.com" title="Gmail로 이동"
-            target="_blank">Gmail</a></li>
+          <li><a href="https://www.youtube.com" title="YouTube로 이동" target="_blank">YouTube</a></li>
+          <li><a href="https://mail.google.com" title="Gmail로 이동" target="_blank">Gmail</a></li>
         </ul>
       </div>
       <div class="mainsite naver">
-        <h2><a href="https://www.naver.com" title="NAVER로 이동"
-          target="_blank">NAVER</a></h2>
+        <h2><a href="https://www.naver.com" title="NAVER로 이동" target="_blank">NAVER</a></h2>
         <ul>
-          <li><a href="https://papago.naver.com" title="파파고로 이동"
-             target="_blank">파파고</a></li>
-          <li><a href="https://sports.news.naver.com/kbaseball/index.nhn"
-            title="야구 : 네이버 스포츠로 이동" target="_blank">네이버 스포츠 : 야구</a></li>
-          <li><a href="https://section.cafe.naver.com" title="네이버 카페로 이동"
-            target="_blank">네이버 카페</a></li>
-          <li><a href="https://mail.naver.com" title="네이버 메일로 이동"
-            target="_blank">네이버 메일</a></li>
+          <li><a href="https://papago.naver.com" title="파파고로 이동" target="_blank">파파고</a></li>
+          <li><a href="https://sports.news.naver.com/kbaseball/index.nhn" title="야구 : 네이버 스포츠로 이동" target="_blank">네이버
+              스포츠 : 야구</a></li>
+          <li><a href="https://section.cafe.naver.com" title="네이버 카페로 이동" target="_blank">네이버 카페</a></li>
+          <li><a href="https://mail.naver.com" title="네이버 메일로 이동" target="_blank">네이버 메일</a></li>
         </ul>
       </div>
       <div class="mainsite facebook">
-        <h2><a href="https://www.facebook.com" title="Facebook으로 이동"
-          target="_blank">Facebook</a></h2>
+        <h2><a href="https://www.facebook.com" title="Facebook으로 이동" target="_blank">Facebook</a></h2>
         <ul>
-          <li><a href="https://www.messenger.com" title="Messenger로 이동"
-            target="_blank">Messenger</a></li>
-          <li><a href="https://www.instagram.com" title="인스타그램으로 이동"
-            target="_blank">인스타그램</a></li>
+          <li><a href="https://www.messenger.com" title="Messenger로 이동" target="_blank">Messenger</a></li>
+          <li><a href="https://www.instagram.com" title="인스타그램으로 이동" target="_blank">인스타그램</a></li>
         </ul>
       </div>
       <div class="mainsite ebs">
-        <h2><a href="https://www.ebs.co.kr">EBS</a></h2>
+        <h2><a href="https://www.ebs.co.kr" title="EBS로 이동" target="_blank">EBS</a></h2>
         <ul>
-          <li><a href="https://oc.ebssw.kr" title="EBS 온라인 클래스로 이동"
-            target="_blank">EBS 온라인 클래스</a></li>
-          <li><a href="https://www.ebssw.kr" title="이솦 ㅣ EBS 소프트웨어로 이동"
-            target="_blank">이솦 ㅣ EBS 소프트웨어</a></li>
+          <li><a href="https://oc.ebssw.kr" title="EBS 온라인 클래스로 이동" target="_blank">EBS 온라인 클래스</a></li>
+          <li><a href="https://www.ebssw.kr" title="이솦 ㅣ EBS 소프트웨어로 이동" target="_blank">이솦 ㅣ EBS 소프트웨어</a></li>
         </ul>
       </div>
     </div>
-    <script src="darkmode.js"></script>
-  </body>
+  </div>
+  <script src="clock.js"></script>
+</body>
+
 </html>
