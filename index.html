@@ -8,18 +8,31 @@
   <link rel="stylesheet" href="swiper-style.css">
   <link rel="stylesheet" href="nav-style.css">
   <link rel="stylesheet" href="clock-style.css">
+  <link rel="stylesheet" href="greeting-style.css">
+  <link href="http://fonts.googleapis.com/earlyaccess/jejugothic.css" rel="stylesheet">
 </head>
 
 <body>
+  <!-- 상단 메뉴바 -->
   <div class="nav">
     <h1>나만의 웹사이트!</h1>
   </div>
+  <!-- 시계, 웹 폴더 -->
   <div class="content">
+    <!-- 시계 -->
     <div class="clock">
       <div class="AmPm">Pm</div>
       <h1>00:00</h1>
       <div class="dates">0000년 00월 00일 n요일</div>
     </div>
+    <!-- 이름 물어보기, 인사하기 -->
+    <div class="toGreet">
+      <form class="greetingForm form">
+        <input class="askName" type="text" placeholder="당신의 이름을 입력해주세요.">
+      </form>
+      <h4 class="greeting js-greetings"></h4>
+    </div>
+    <!-- 웹 폴더 -->
     <div class="swiper">
       <div class="mainsite google">
         <h2><a href="https://www.google.com" title="Google로 이동" target="_blank">Google</a></h2>
@@ -55,6 +68,7 @@
     </div>
   </div>
   <script src="clock.js"></script>
+  <script src="greeting.js"></script>
 </body>
 
 </html>

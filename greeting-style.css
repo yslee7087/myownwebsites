@@ -1,0 +1,26 @@
+.toGreet {
+    text-align: center;
+    margin: 0px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.askName {
+    position: relative;
+    transition: 0.2s;
+    width: 210px;
+    outline: 0px;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Jeju Gothic', sans-serif;
+    border-radius: 2px;
+    border: 0px;
+    border-bottom: 2px solid rgb(202, 202, 202);
+}
+.askName:focus {
+    border-color: rgb(116, 116, 116);
+}
+.greeting {
+    font-size: 20px;
+    font-family: 'Jeju Gothic', sans-serif;
+    text-align: center;
+}
