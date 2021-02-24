@@ -1,0 +1,28 @@
+.button {
+    transition-duration: 0.25s;
+    background-color: rgba(0, 0, 0, 0);
+    outline: 0px;
+} 
+.darkmode {
+    z-index: 2;
+    position: absolute;
+    top: 4px;
+    right: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-color: white;
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 2px;
+    margin: 5px;
+}
+.createImage {
+    background-image: url(background.jpg);
+} 
+.removeImage {
+    background-color: black;
+    background-image: none;
+}

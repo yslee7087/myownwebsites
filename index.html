@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="nav-style.css">
   <link rel="stylesheet" href="clock-style.css">
   <link rel="stylesheet" href="greeting-style.css">
+  <link rel="stylesheet" href="darkmode-style.css">
   <link href="https://fonts.googleapis.com/earlyaccess/jejugothic.css" rel="stylesheet">
 </head>
 
@@ -16,6 +17,8 @@
   <!-- 상단 메뉴바 -->
   <div class="nav">
     <h1>나만의 웹사이트!</h1>
+    <input class="button darkmode lightmodeBtn" type="button" value="Light mode" title=" 화면이 어두워지고 배경 이미지가 사라집니다."
+      onclick="darkmode(this)">
   </div>
   <!-- 시계, 웹 폴더 -->
   <div class="content">
@@ -67,6 +70,8 @@
       </div>
     </div>
   </div>
+  <script src="basicSetting.js"></script>
+  <script src="darkmode.js"></script>
   <script src="clock.js"></script>
   <script src="greeting.js"></script>
 </body>
